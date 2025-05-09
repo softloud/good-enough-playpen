@@ -124,10 +124,11 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
+#### Docker
+
+- Ubuntu: https://docs.docker.com/engine/install/ubuntu/
+- Post installation steps: https://docs.docker.com/engine/install/linux-postinstall/
 
 ### Installation
 
@@ -168,7 +169,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
+- [ ] 
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
