@@ -1,0 +1,72 @@
+---
+title: colog
+subtitle: thinkings & development
+author: Good Enough Data & Systems Lab
+format: 
+  revealjs:
+    theme: solarized
+---
+
+## Close this issue when
+
+Pipeline output conforms to graph design (issue #7)
+
+## Pipeline 
+
+::: {.columns}
+::: {.column width="50%"}
+
+Think of each arrow as a set of computational objects.
+
+> What are the elements of each arrow? 
+
+To answer this, let's unpack the categories.
+
+:::
+
+::: {.column width="50%"}
+
+![](pipeline.svg)
+
+:::
+
+:::
+
+## Categories of data development
+
+::: {.columns}
+::: {.column width="30%"}
+
+![](pipeline.svg)
+
+:::
+
+::: {.column width="30%"}
+
+objects: 
+
+  - deploy
+  - analytical
+  - semantic
+  - source
+  - raw
+
+ordered by observability
+
+:::
+
+::: {.column width="30%"}
+
+
+arrows: 
+
+- terminal nodes
+
+- input/outputs of layers
+
+> What assumptions do we want to hold?
+
+
+:::
+
+:::

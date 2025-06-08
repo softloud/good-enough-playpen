@@ -1,0 +1,9 @@
+digraph G {
+  size="3,6"
+  ratio=fill
+  rankdir=BT
+
+  { rank=min; raw; }
+
+  raw -> source -> semantic -> analytical -> deploy
+}
